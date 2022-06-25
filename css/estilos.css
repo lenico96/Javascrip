@@ -50,10 +50,10 @@ background-size: cover;
 }
 
 nav{
-    background-color: rgb(40, 109, 46);
+    background-color: rgb(44, 16, 109);
     height: 100px;
     width: 100%;
-    background: rgba(35, 106, 56, 0.2);
+    background: rgba(35, 129, 31, 0.2);
 
 backdrop-filter: blur( 0px );
 -webkit-backdrop-filter: blur( 0px );
@@ -315,7 +315,7 @@ li a.active, li a:hover{
     text-shadow: #000 2px 1px;
 }
 
-/* From uiverse.io by @alexmaracinaru */
+/* boton */
 .cta {
     border: none;
     background: none;
@@ -425,161 +425,7 @@ li a.active, li a:hover{
   
 }
 
-/* From uiverse.io by @mrhyddenn */
-.icon-btn {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #cdcdcd;
-    background: white;
-    border-radius: 25px;
-    overflow: hidden;
-    position: relative;
-    transition: width 0.2s ease-in-out;
-    font-weight: 500;
-    font-family: inherit;
-  }
-  
-  .add-btn:hover {
-    width: 120px;
-  }
-  
-  .add-btn::before,
-  .add-btn::after {
-    transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
-    content: "";
-    position: absolute;
-    height: 4px;
-    width: 10px;
-    top: calc(50% - 2px);
-    background: seagreen;
-  }
-  
-  .add-btn::after {
-    right: 14px;
-    overflow: hidden;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-  }
-  
-  .add-btn::before {
-    left: 14px;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-  }
-  
-  .icon-btn:focus {
-    outline: none;
-  }
-  
-  .btn-txt {
-    opacity: 0;
-    transition: opacity 0.2s;
-  }
-  
-  .add-btn:hover::before,
-  .add-btn:hover::after {
-    width: 4px;
-    border-radius: 2px;
-  }
-  
-  .add-btn:hover .btn-txt {
-    opacity: 1;
-  }
-  
-  .add-icon::after,
-  .add-icon::before {
-    transition: all 0.2s ease-in-out;
-    content: "";
-    position: absolute;
-    height: 20px;
-    width: 2px;
-    top: calc(50% - 10px);
-    background: seagreen;
-    overflow: hidden;
-  }
-  
-  .add-icon::before {
-    left: 22px;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-  }
-  
-  .add-icon::after {
-    right: 22px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-  }
-  
-  .add-btn:hover .add-icon::before {
-    left: 15px;
-    height: 4px;
-    top: calc(50% - 2px);
-  }
-  
-  .add-btn:hover .add-icon::after {
-    right: 15px;
-    height: 4px;
-    top: calc(50% - 2px);
-}
 
-/*catalogo clases*/
-
-.catalogo{
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(2s, 1fr);
-}
-
-.automaticas{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-    grid-column: 4/13;
-    flex-wrap: wrap;
-    background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 5.5px );
--webkit-backdrop-filter: blur( 5.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    }
-
-.fotoperiodicas{
-    display: flex;
-    flex-direction: row;
-    grid-column: 2/14;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 10px;
-    gap: 10px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 5.5px );
--webkit-backdrop-filter: blur( 5.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-.contenedor{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    font-family: 'catalogo';
-}
-
-.contenedor h3{
-    font-family: 'Faster';
-    font-size: 50px;
-}
 
 
 
